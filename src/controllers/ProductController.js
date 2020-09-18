@@ -1,5 +1,4 @@
-const mongoose = require('mongoose');
-const Product = mongoose.model('Product');
+const Product = require("../models/Product");
 
 //exportar objeto com umas funcoes
 module.exports = {
